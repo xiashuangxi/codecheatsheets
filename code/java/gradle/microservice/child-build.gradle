@@ -1,0 +1,12 @@
+// -----------------------------------------------------------------------------
+// 说明： gradle 配置微服务的子目录
+// 主题词：gradle 微服务
+// -----------------------------------------------------------------------------
+//dependencies {
+//    ..... 这里的引用 compile 'org.springframework.boot:spring-boot-starter-web'
+//}
+jar {
+    manifest {
+        attributes ('Main-Class': 'com.mp.common.CommonApplication')
+    }
+}
